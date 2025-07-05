@@ -1,5 +1,9 @@
 # System Design Interview Questions
 
+* https://www.geeksforgeeks.org/system-design/most-commonly-asked-system-design-interview-problems-questions/
+
+
+
 * System Design Master Template -> https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/system-design-master-template
 
   
