@@ -8,11 +8,14 @@
 
 ![image](https://github.com/user-attachments/assets/dc9955ef-1e55-4369-ac3c-265f5898cc03)
 
-
 #### System Design Life Cycle | SDLC (Design)
 *  https://www.geeksforgeeks.org/system-design/system-design-life-cycle-phases-models-and-use-cases/
-#### Most Commonly Asked System Design Interview Problems/Questions
+
+#### 11 Most-Asked System Design Interview Questions (+ answers)
+* https://igotanoffer.com/blogs/tech/system-design-interviews
+#### Most Commonly Asked System Design Interview Problems/Questions  
 * https://www.geeksforgeeks.org/system-design/most-commonly-asked-system-design-interview-problems-questions/
+* https://www.interviewbit.com/system-design-interview-questions/
 
 
 
