@@ -8,6 +8,9 @@
 
 ![image](https://github.com/user-attachments/assets/dc9955ef-1e55-4369-ac3c-265f5898cc03)
 
+#### How to Answer a System Design Interview Problem
+* https://blog.algomaster.io/p/how-to-answer-a-system-design-interview-problem
+
 #### System Design Life Cycle | SDLC (Design)
 *  https://www.geeksforgeeks.org/system-design/system-design-life-cycle-phases-models-and-use-cases/
 
