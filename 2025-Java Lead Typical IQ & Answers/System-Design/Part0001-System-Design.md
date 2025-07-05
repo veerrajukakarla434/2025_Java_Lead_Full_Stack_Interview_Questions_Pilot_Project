@@ -1,5 +1,13 @@
 # System Design Interview Questions
 
+![image](https://github.com/user-attachments/assets/f1aebc11-289e-4343-b6cf-a24abc1348e1)
+
+![image](https://github.com/user-attachments/assets/5425063a-f055-4d59-a866-4063f211d795)
+
+![image](https://github.com/user-attachments/assets/bb7ad926-4df6-44c3-8728-80adf9eca5d4)
+
+![image](https://github.com/user-attachments/assets/dc9955ef-1e55-4369-ac3c-265f5898cc03)
+
 
 #### System Design Life Cycle | SDLC (Design)
 *  https://www.geeksforgeeks.org/system-design/system-design-life-cycle-phases-models-and-use-cases/
