@@ -1,9 +1,23 @@
 ## Docker-Kubernetes
 
 
+#### What is the difference between Kubernate and Docker
 
+![image](https://github.com/user-attachments/assets/6789e029-5590-4b0d-9c1e-c7273499b1e7)
 
+![image](https://github.com/user-attachments/assets/2f9f4aa7-9de8-44a5-96c3-fb595081e451)
 
+![image](https://github.com/user-attachments/assets/98a9297b-2594-45ae-8e82-cfb37d51207e)
+
+![image](https://github.com/user-attachments/assets/e0eaf264-02da-4464-bac3-23161c530c8b)
+
+![image](https://github.com/user-attachments/assets/18964b8b-2a1c-485c-929a-2c30e8fa8884)
+
+![image](https://github.com/user-attachments/assets/cae5884f-fd06-435f-9498-9a42e500f9f1)
+
+![image](https://github.com/user-attachments/assets/effb6788-b8c9-4fb7-9f7a-95a0006b3293)
+
+![image](https://github.com/user-attachments/assets/1a5cd47f-1e59-4f9f-8e60-e0ff6dfb3f8c)
 
 
 
