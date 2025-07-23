@@ -27,4 +27,10 @@
 
  <img width="775" height="337" alt="image" src="https://github.com/user-attachments/assets/d39f5a59-cd52-45e7-9d59-e820337b9028" />
 
+ <img width="669" height="343" alt="image" src="https://github.com/user-attachments/assets/3771dbe9-0202-497d-bfe1-fb4b35090670" />
+
+
 ## 2) what is actuator micrometer ? 
+
+<img width="719" height="63" alt="image" src="https://github.com/user-attachments/assets/6d83c7f7-5c3f-4324-a153-b0b7265d3421" />
+
