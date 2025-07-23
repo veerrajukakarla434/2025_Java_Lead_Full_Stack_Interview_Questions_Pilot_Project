@@ -52,6 +52,7 @@
 
 <img width="724" height="130" alt="image" src="https://github.com/user-attachments/assets/9beebc26-27fa-4c09-b68d-51045f4199ef" />
 
+<img width="790" height="481" alt="image" src="https://github.com/user-attachments/assets/ab2680e3-c811-4c04-8192-711f6f7d23c5" />
 
 ## 3) What is the difference between and purpose Splunk vs APPD vs Grafana
 
