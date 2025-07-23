@@ -3,6 +3,8 @@
 #### This Page will cover following Questions
 ####  1) Purpose Of => Checkmarx, SonarQube, Black Duck, Fortify and ThreadFix 
 ####  2) what is actuator micrometer ? 
+####  3) What is the difference between and purpose Splunk vs APPD vs Grafana
+
 
 ## 1) Purpose Of => Checkmarx, SonarQube, Black Duck, Fortify and ThreadFix 
 #### ANS:
@@ -49,3 +51,9 @@
 <img width="738" height="630" alt="image" src="https://github.com/user-attachments/assets/835ecd16-b776-4c58-9a85-2af71c1d5934" />
 
 <img width="724" height="130" alt="image" src="https://github.com/user-attachments/assets/9beebc26-27fa-4c09-b68d-51045f4199ef" />
+
+
+## 3) What is the difference between and purpose Splunk vs APPD vs Grafana
+
+
+
