@@ -56,5 +56,14 @@
 
 ## 3) What is the difference between and purpose Splunk vs APPD vs Grafana
 
+* **The full form of SIEM is Security Information and Event Management**
 
+<img width="697" height="581" alt="image" src="https://github.com/user-attachments/assets/9d5cc7f4-a4a0-4669-8189-d5f7ff1d8fca" />
 
+<img width="722" height="588" alt="image" src="https://github.com/user-attachments/assets/0a22ae99-a9d9-4178-90c6-b3b616abc9dc" />
+
+<img width="756" height="526" alt="image" src="https://github.com/user-attachments/assets/d142f09f-9dd2-499a-90af-de258acd337b" />
+
+<img width="821" height="414" alt="image" src="https://github.com/user-attachments/assets/1abe29de-4b9d-49d5-85af-6a033e8791fc" />
+
+<img width="706" height="207" alt="image" src="https://github.com/user-attachments/assets/55af16a0-91b8-4b7b-86d3-c318fc79a56e" />
