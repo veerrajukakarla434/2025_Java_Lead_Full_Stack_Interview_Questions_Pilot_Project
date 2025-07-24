@@ -1,7 +1,7 @@
 # Spring Frame Work Life Cycle
 
-# g-gemini reference => https://gemini.google.com/app/6ebc345627e2bafb
-# chat gpt reference => https://chatgpt.com/c/68817a9a-cf94-8008-818d-05c6313915aa
+# G-gemini reference => https://gemini.google.com/app/6ebc345627e2bafb
+# Chat gpt reference => https://chatgpt.com/c/68817a9a-cf94-8008-818d-05c6313915aa
 
 <img width="1066" height="428" alt="image" src="https://github.com/user-attachments/assets/e7cc6b8a-4625-48b4-8bc2-1f9d657e64d7" />
 
