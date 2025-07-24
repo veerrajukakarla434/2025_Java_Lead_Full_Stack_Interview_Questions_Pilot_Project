@@ -1,7 +1,7 @@
 # Main OR Important Lead Interview Quetions and Answers
 
-#### 1) what is rebalancing in kafka how heart beat works in consumer ?
-
+### 1) what is rebalancing in kafka how heart beat works in consumer ?
+### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ?
 
 
 
@@ -119,3 +119,54 @@ public class RebalanceAwareConsumer {
 <img width="842" height="553" alt="image" src="https://github.com/user-attachments/assets/b685d6e7-7012-4b57-b9ce-48e9e0e7ce16" />
 
 <img width="815" height="635" alt="image" src="https://github.com/user-attachments/assets/fd34d75e-15b4-40fc-9967-cb974f70523a" />
+
+#### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ?
+
+<img width="797" height="526" alt="image" src="https://github.com/user-attachments/assets/633106d4-4b50-4213-9b16-356d3d5b6e44" />
+
+<img width="806" height="781" alt="image" src="https://github.com/user-attachments/assets/febd93a0-ac4d-4410-a071-5baeed057800" />
+
+<img width="815" height="717" alt="image" src="https://github.com/user-attachments/assets/57be930e-ad02-471a-93f7-7466df7d73b6" />
+
+<img width="799" height="566" alt="image" src="https://github.com/user-attachments/assets/c262cbf9-4966-428a-a081-657723ddf335" />
+
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.env.*;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@SpringBootApplication
+public class DemoApplication implements CommandLineRunner {
+
+    @Autowired
+    private ConfigurableEnvironment environment;
+
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        printPropertySource("server.port");
+        printPropertySource("custom.name");
+    }
+
+    private void printPropertySource(String key) {
+        for (PropertySource<?> propertySource : environment.getPropertySources()) {
+            if (propertySource.containsProperty(key)) {
+                Object value = propertySource.getProperty(key);
+                System.out.printf("🔍 Key: %-20s | Value: %-15s | Source: %s%n",
+                        key, value, propertySource.getName());
+                return;
+            }
+        }
+        System.out.println("❌ Property not found: " + key);
+    }
+}
+
+```
+<img width="814" height="388" alt="image" src="https://github.com/user-attachments/assets/2a7fc961-412e-415a-bd5e-cd942051d4fa" />
+
+<img width="802" height="462" alt="image" src="https://github.com/user-attachments/assets/6ec63e0e-f1f5-46f6-9584-485ca6e87316" />
