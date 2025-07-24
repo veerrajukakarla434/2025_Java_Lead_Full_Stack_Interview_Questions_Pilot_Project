@@ -1,7 +1,7 @@
 # Main OR Important Lead Interview Quetions and Answers
 
 ### 1) what is rebalancing in kafka how heart beat works in consumer ?
-### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ?
+### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
 
 
 
