@@ -2,7 +2,7 @@
 
 ### 1) what is rebalancing in kafka how heart beat works in consumer ?
 ### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
-
+### 3) spring resilience vs circuit breaker in spring boot
 
 
 
@@ -170,3 +170,9 @@ public class DemoApplication implements CommandLineRunner {
 <img width="814" height="388" alt="image" src="https://github.com/user-attachments/assets/2a7fc961-412e-415a-bd5e-cd942051d4fa" />
 
 <img width="802" height="462" alt="image" src="https://github.com/user-attachments/assets/6ec63e0e-f1f5-46f6-9584-485ca6e87316" />
+
+#### 3) spring resilience vs circuit breaker in spring boot
+
+
+
+
