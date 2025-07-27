@@ -5,6 +5,7 @@
 3. spring resilience vs circuit breaker in spring boot
 4. how to create immutable class
 5. purpose of functional interfaces in java and default methods in interfaces
+6. What is the difference JPA vs Hibernates ?
 
 
 
@@ -298,5 +299,14 @@ public final class Employee {
 
 <img width="824" height="757" alt="image" src="https://github.com/user-attachments/assets/9ce8f54b-8ba8-4ada-8554-7cce13e67809" />
 
+#### 6. What is the difference JPA vs Hibernates ?
 
+<img width="798" height="622" alt="image" src="https://github.com/user-attachments/assets/d5261bc3-8f0a-4505-b283-d25717c4e12c" />
 
+<img width="849" height="528" alt="image" src="https://github.com/user-attachments/assets/d9260ced-e45c-4f44-8c49-3ab0cdf3bc57" />
+
+<img width="819" height="388" alt="image" src="https://github.com/user-attachments/assets/9907fd02-468f-402a-95a3-f0d6e93f0851" />
+
+<img width="835" height="695" alt="image" src="https://github.com/user-attachments/assets/92c54d2a-3b44-40dc-9236-cdad931501b8" />
+
+<img width="883" height="595" alt="image" src="https://github.com/user-attachments/assets/fb36cc2f-1852-4bc1-bf48-4bd6fff4d39a" />
