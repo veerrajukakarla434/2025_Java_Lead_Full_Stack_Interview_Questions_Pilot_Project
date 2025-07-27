@@ -1,10 +1,10 @@
 # Main OR Important Lead Interview Quetions and Answers
 
-### 1) what is rebalancing in kafka how heart beat works in consumer ?
-### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
-### 3) spring resilience vs circuit breaker in spring boot
-### 4) how to create immutable class
-### 5) purpose of functional interfaces in java and default methods in interfaces
+1. what is rebalancing in kafka how heart beat works in consumer ?
+2. In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
+3. spring resilience vs circuit breaker in spring boot
+4. how to create immutable class
+5. purpose of functional interfaces in java and default methods in interfaces
 
 
 
