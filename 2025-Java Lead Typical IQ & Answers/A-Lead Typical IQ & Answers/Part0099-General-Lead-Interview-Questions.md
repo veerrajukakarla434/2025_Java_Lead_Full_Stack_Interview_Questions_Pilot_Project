@@ -6,6 +6,7 @@
 4. how to create immutable class
 5. purpose of functional interfaces in java and default methods in interfaces
 6. What is the difference JPA vs Hibernates ?
+7. Can you please give proper examples of Hibernate associations/mappings 
 
 
 
@@ -310,3 +311,36 @@ public final class Employee {
 <img width="835" height="695" alt="image" src="https://github.com/user-attachments/assets/92c54d2a-3b44-40dc-9236-cdad931501b8" />
 
 <img width="883" height="595" alt="image" src="https://github.com/user-attachments/assets/fb36cc2f-1852-4bc1-bf48-4bd6fff4d39a" />
+
+<img width="868" height="655" alt="image" src="https://github.com/user-attachments/assets/bdd3f089-d57d-41b3-8948-b6a3b8311ef3" />
+
+<img width="830" height="383" alt="image" src="https://github.com/user-attachments/assets/6b475b14-17b3-47b7-9cc2-a979da10afa8" />
+
+<img width="804" height="423" alt="image" src="https://github.com/user-attachments/assets/d47a253a-c081-4ee4-9670-5743ba0ed79f" />
+
+<img width="802" height="484" alt="image" src="https://github.com/user-attachments/assets/45f65d26-14d9-4163-b5fc-d97067702010" />
+
+<img width="802" height="346" alt="image" src="https://github.com/user-attachments/assets/5e6a66ee-2562-4c40-8911-c4ca36631521" />
+
+<img width="845" height="746" alt="image" src="https://github.com/user-attachments/assets/083bd77a-0c24-42ab-9ab3-1c850d4dbc6e" />
+
+<img width="807" height="661" alt="image" src="https://github.com/user-attachments/assets/e7a8f09b-a3ba-4be2-97cd-afb7e9d223dd" />
+
+<img width="813" height="580" alt="image" src="https://github.com/user-attachments/assets/d6e81dc1-17e9-4961-860e-d2ccf70c9baf" />
+
+<img width="839" height="509" alt="image" src="https://github.com/user-attachments/assets/8533fafd-e150-4227-8a98-3a3c0e430222" />
+
+#### 7. Can you please give proper examples of Hibernate associations/mappings 
+
+<img width="820" height="331" alt="image" src="https://github.com/user-attachments/assets/3c697e15-7bea-4b3f-8898-c5088dd87b3e" />
+
+<img width="811" height="549" alt="image" src="https://github.com/user-attachments/assets/d7b36630-fd30-4c42-87f5-b854bf041daa" />
+
+<img width="800" height="663" alt="image" src="https://github.com/user-attachments/assets/337c2543-9138-4792-928f-b7054cb36fdf" />
+
+<img width="812" height="196" alt="image" src="https://github.com/user-attachments/assets/fbec4550-7f4b-4df6-8d17-16b7f867eb75" />
+
+<img width="818" height="718" alt="image" src="https://github.com/user-attachments/assets/30cc530f-5df9-4b80-80e1-9bd51703b13f" />
+
+<img width="786" height="98" alt="image" src="https://github.com/user-attachments/assets/cf859ce9-4154-487c-9e92-18fb6ab6907b" />
+
