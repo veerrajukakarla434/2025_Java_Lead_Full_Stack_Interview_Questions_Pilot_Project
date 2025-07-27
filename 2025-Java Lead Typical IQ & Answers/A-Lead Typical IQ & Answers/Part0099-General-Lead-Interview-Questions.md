@@ -267,3 +267,9 @@ public final class Employee {
 
 <img width="827" height="334" alt="image" src="https://github.com/user-attachments/assets/69cbb6a1-a7e7-42d3-8fc4-c811198499db" />
 
+<img width="852" height="604" alt="image" src="https://github.com/user-attachments/assets/f76b4cb1-c1ec-438b-b624-d717d253648d" />
+
+<img width="847" height="460" alt="image" src="https://github.com/user-attachments/assets/2f1057e3-d85a-4ee3-b628-ea85e5121f19" />
+
+<img width="785" height="767" alt="image" src="https://github.com/user-attachments/assets/1a1ace7e-97ef-4aeb-92d6-e06925cc865a" />
+
