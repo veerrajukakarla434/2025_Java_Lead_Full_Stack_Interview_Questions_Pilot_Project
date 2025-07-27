@@ -3,7 +3,7 @@
 ### 1) what is rebalancing in kafka how heart beat works in consumer ?
 ### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
 ### 3) spring resilience vs circuit breaker in spring boot
-
+### 4) how to create immutable class
 
 
 
@@ -174,5 +174,57 @@ public class DemoApplication implements CommandLineRunner {
 #### 3) spring resilience vs circuit breaker in spring boot
 
 
+#### 4) how to create immutable class
 
+<img width="795" height="569" alt="image" src="https://github.com/user-attachments/assets/06ab7d51-b1aa-4ce7-8347-5a07834f5a13" />
+
+```java
+public final class Person {
+    private final String name;
+    private final int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Only getters, no setters
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+```
+<img width="761" height="64" alt="image" src="https://github.com/user-attachments/assets/8fb7ac62-46b3-42f9-924f-d9b98b309a28" />
+
+```java
+import java.util.Date;
+
+public final class Employee {
+    private final String name;
+    private final Date joiningDate; // Mutable
+
+    public Employee(String name, Date joiningDate) {
+        this.name = name;
+        // Defensive copy
+        this.joiningDate = new Date(joiningDate.getTime());
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Date getJoiningDate() {
+        // Return defensive copy
+        return new Date(joiningDate.getTime());
+    }
+}
+
+```
+
+<img width="827" height="334" alt="image" src="https://github.com/user-attachments/assets/69cbb6a1-a7e7-42d3-8fc4-c811198499db" />
 
