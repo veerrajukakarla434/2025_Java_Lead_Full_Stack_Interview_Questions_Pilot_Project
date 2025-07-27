@@ -173,6 +173,45 @@ public class DemoApplication implements CommandLineRunner {
 
 #### 3) spring resilience vs circuit breaker in spring boot
 
+ <img width="828" height="605" alt="image" src="https://github.com/user-attachments/assets/1fdd0695-072e-4772-8c64-1e683b01ccc9" />
+
+ <img width="823" height="501" alt="image" src="https://github.com/user-attachments/assets/fcf0c964-6b33-4b99-9661-0f9b990fad6b" />
+
+ <img width="838" height="260" alt="image" src="https://github.com/user-attachments/assets/5e55d158-3f3a-430e-9f2a-15c2a17d6c2b" />
+
+ <img width="819" height="389" alt="image" src="https://github.com/user-attachments/assets/12cb6817-7c2e-412a-9035-01a470b6601f" />
+
+ <img width="802" height="538" alt="image" src="https://github.com/user-attachments/assets/28c2fcde-53d9-4adc-bcf7-630b9a7c4dc7" />
+
+ <img width="810" height="774" alt="image" src="https://github.com/user-attachments/assets/d6fada86-eb0f-4e75-9692-91a6a5ce0eac" />
+
+ #### From G-Gemini Answer
+
+ <img width="770" height="669" alt="image" src="https://github.com/user-attachments/assets/54b18c6f-4a41-41f4-beec-cdf6bc6f9539" />
+
+ <img width="793" height="334" alt="image" src="https://github.com/user-attachments/assets/c794b2b6-af79-4568-acaa-b6edc87d6c6c" />
+
+<img width="734" height="552" alt="image" src="https://github.com/user-attachments/assets/bb76a698-85e4-4541-97ef-391c78db991e" />
+
+<img width="766" height="163" alt="image" src="https://github.com/user-attachments/assets/ba2eb6d6-4bea-46f8-9b16-c9826bcf2c86" />
+
+<img width="741" height="616" alt="image" src="https://github.com/user-attachments/assets/6d5b723e-6918-4da1-bd41-ce9475b282da" />
+
+<img width="732" height="53" alt="image" src="https://github.com/user-attachments/assets/8675f699-ddd5-4743-a185-af10fb62fdcc" />
+
+```java
+resilience4j.circuitbreaker:
+  instances:
+    serviceA:
+      registerHealthIndicator: true
+      slidingWindowSize: 10 # Number of calls to consider for failure rate
+      minimumNumberOfCalls: 5 # Minimum calls before failure rate calculation starts
+      failureRateThreshold: 50 # Percentage of failures to open the circuit
+      waitDurationInOpenState: 5s # Time to wait in open state before half-open
+      permittedNumberOfCallsInHalfOpenState: 3 # Number of calls allowed in half-open state
+```
+<img width="745" height="142" alt="image" src="https://github.com/user-attachments/assets/1f3480b4-0df8-4290-9462-d91e1d0524e8" />
+
 
 #### 4) how to create immutable class
 
