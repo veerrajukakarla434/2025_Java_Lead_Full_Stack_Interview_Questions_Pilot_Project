@@ -344,4 +344,6 @@ public final class Employee {
 
 <img width="768" height="530" alt="image" src="https://github.com/user-attachments/assets/5b1baf9b-1413-4c73-91a1-4e5de677c818" />
 
+<img width="818" height="582" alt="image" src="https://github.com/user-attachments/assets/c91f3ab6-e8a9-44aa-bfe4-d89c9066183b" />
 
+<img width="804" height="406" alt="image" src="https://github.com/user-attachments/assets/34cb9a85-40c0-4a4e-81e5-9aa162b3c27c" />
