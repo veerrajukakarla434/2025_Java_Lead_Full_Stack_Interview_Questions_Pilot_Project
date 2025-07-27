@@ -4,7 +4,7 @@
 ### 2) In springboot application is having application.properties and application.yml file which one will be consider ? and why ? and how to know which one os taken first ?
 ### 3) spring resilience vs circuit breaker in spring boot
 ### 4) how to create immutable class
-
+### 5) purpose of functional interfaces in java
 
 
 
@@ -272,4 +272,16 @@ public final class Employee {
 <img width="847" height="460" alt="image" src="https://github.com/user-attachments/assets/2f1057e3-d85a-4ee3-b628-ea85e5121f19" />
 
 <img width="785" height="767" alt="image" src="https://github.com/user-attachments/assets/1a1ace7e-97ef-4aeb-92d6-e06925cc865a" />
+
+#### 5) purpose of functional interfaces in java
+
+<img width="829" height="495" alt="image" src="https://github.com/user-attachments/assets/2550597b-1433-4412-a7ef-6f9a9bf5deb1" />
+
+<img width="838" height="398" alt="image" src="https://github.com/user-attachments/assets/1e1ca77a-afaf-4487-9636-8852a4c46508" />
+
+<img width="809" height="708" alt="image" src="https://github.com/user-attachments/assets/86ad5eff-f056-4b7d-8125-109416ed8f1a" />
+
+<img width="814" height="430" alt="image" src="https://github.com/user-attachments/assets/c98d1c12-e480-4799-b830-844ce9a8b133" />
+
+<img width="830" height="298" alt="image" src="https://github.com/user-attachments/assets/da70c7e0-18c0-45ea-811d-45d43e8b93fa" />
 
