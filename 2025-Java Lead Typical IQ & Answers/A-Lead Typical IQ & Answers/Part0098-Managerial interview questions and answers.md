@@ -1,7 +1,7 @@
 # Managerial interview questions and answers
 
 1. Managerial interview questions and answers
-2. 
+2. What is SDLC ? What is Agile ? What is Scrum ?
 
 
 #### 1. Top 20 Managerial interview questions and answers
@@ -29,7 +29,7 @@
 
 <img width="758" height="352" alt="image" src="https://github.com/user-attachments/assets/3a1e05ad-6754-4eec-a7ab-6587379be7a8" />
 
-## What is SDLC ?
+## 2. What is SDLC ? What is Agile ? What is Scrum ?
 
 <img width="773" height="663" alt="image" src="https://github.com/user-attachments/assets/5e326090-f4da-44e0-9b4a-93b8f2641ef3" />
 
