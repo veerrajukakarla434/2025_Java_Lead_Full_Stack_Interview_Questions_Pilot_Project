@@ -6,7 +6,8 @@
 4. how to create immutable class
 5. purpose of functional interfaces in java and default methods in interfaces
 6. What is the difference JPA vs Hibernates ?
-7. Can you please give proper examples of Hibernate associations/mappings 
+7. Can you please give proper examples of Hibernate associations/mappings
+8. Explain in detail Twelve-Factor Methodology in a Spring Boot Microservice
 
 
 
@@ -347,3 +348,31 @@ public final class Employee {
 <img width="818" height="582" alt="image" src="https://github.com/user-attachments/assets/c91f3ab6-e8a9-44aa-bfe4-d89c9066183b" />
 
 <img width="804" height="406" alt="image" src="https://github.com/user-attachments/assets/34cb9a85-40c0-4a4e-81e5-9aa162b3c27c" />
+
+#### 8. Explain in detail Twelve-Factor Methodology in a Spring Boot Microservice
+
+<img width="844" height="444" alt="image" src="https://github.com/user-attachments/assets/5be1454a-6667-4c6a-b4f8-8c0150f43996" />
+
+<img width="836" height="549" alt="image" src="https://github.com/user-attachments/assets/e4acce6c-ef0b-45c4-9db5-412d15b50f31" />
+
+<img width="710" height="543" alt="image" src="https://github.com/user-attachments/assets/4f4809e0-0bc9-4749-8d61-8542c36c573b" />
+
+<img width="830" height="385" alt="image" src="https://github.com/user-attachments/assets/6c76b6af-f792-4f2d-b73d-6a63a53d6752" />
+
+<img width="826" height="464" alt="image" src="https://github.com/user-attachments/assets/76901d77-8307-440b-8647-05a2f2e969ac" />
+
+<img width="824" height="390" alt="image" src="https://github.com/user-attachments/assets/98e21917-ab71-413e-a80c-ed6270d77840" />
+
+<img width="883" height="581" alt="image" src="https://github.com/user-attachments/assets/bb59cd71-51f3-48ee-9d34-e91e2c37a586" />
+
+<img width="926" height="719" alt="image" src="https://github.com/user-attachments/assets/25120ecc-18cb-46f7-87c7-45ec9e1d685d" />
+
+<img width="803" height="349" alt="image" src="https://github.com/user-attachments/assets/9bbd0eb6-9fc1-472a-b7dd-f25a023e9ae7" />
+
+<img width="844" height="540" alt="image" src="https://github.com/user-attachments/assets/e56cf0d3-1f8a-4576-9bef-5dc8fec7dc77" />
+
+<img width="820" height="499" alt="image" src="https://github.com/user-attachments/assets/c3597c4d-7214-4c2b-a2f8-c5f83612b63a" />
+
+<img width="816" height="639" alt="image" src="https://github.com/user-attachments/assets/7941bc2e-ec20-4020-99f1-73d76dac18f7" />
+
+
