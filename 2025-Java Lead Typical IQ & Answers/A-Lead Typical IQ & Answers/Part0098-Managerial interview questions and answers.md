@@ -2,6 +2,7 @@
 
 1. Managerial interview questions and answers
 2. What is SDLC ? What is Agile ? What is Scrum ?
+3. What is the non functional requirements and functional requirements ? explain in details
 
 
 #### 1. Top 20 Managerial interview questions and answers
@@ -29,7 +30,7 @@
 
 <img width="758" height="352" alt="image" src="https://github.com/user-attachments/assets/3a1e05ad-6754-4eec-a7ab-6587379be7a8" />
 
-## 2. What is SDLC ? What is Agile ? What is Scrum ?
+#### 2. What is SDLC ? What is Agile ? What is Scrum ?
 
 <img width="773" height="663" alt="image" src="https://github.com/user-attachments/assets/5e326090-f4da-44e0-9b4a-93b8f2641ef3" />
 
@@ -46,3 +47,18 @@
 <img width="841" height="562" alt="image" src="https://github.com/user-attachments/assets/daa4bfe1-3974-4428-9246-e49836ddc3f3" />
 
 <img width="804" height="437" alt="image" src="https://github.com/user-attachments/assets/5d894737-268e-4da5-97e3-df3275e445cb" />
+
+#### 3. What is the non functional requirements and functional requirements ? explain in details
+
+<img width="840" height="481" alt="image" src="https://github.com/user-attachments/assets/5671cfe3-5caf-440f-ba07-c42d96849506" />
+
+<img width="833" height="617" alt="image" src="https://github.com/user-attachments/assets/9db38f56-a9d8-4f3f-b558-fa3abddca83f" />
+
+<img width="773" height="415" alt="image" src="https://github.com/user-attachments/assets/c0610eea-fbf9-4691-94be-82d9e3cdda6f" />
+
+<img width="845" height="529" alt="image" src="https://github.com/user-attachments/assets/10d33b63-2d35-4f30-9e71-bc1e861ef8cc" />
+
+<img width="786" height="661" alt="image" src="https://github.com/user-attachments/assets/5523158a-dc18-4325-a6ef-f4da3af8325b" />
+
+<img width="814" height="653" alt="image" src="https://github.com/user-attachments/assets/aaac4630-ab82-4535-a868-e54328ad678f" />
+
