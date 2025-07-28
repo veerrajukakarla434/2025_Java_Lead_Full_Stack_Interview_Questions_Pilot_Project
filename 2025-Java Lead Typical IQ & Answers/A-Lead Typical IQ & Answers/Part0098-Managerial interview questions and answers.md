@@ -1,5 +1,10 @@
 # Managerial interview questions and answers
 
+1. Managerial interview questions and answers
+2. 
+
+
+#### 1. Top 20 Managerial interview questions and answers
 <img width="757" height="332" alt="image" src="https://github.com/user-attachments/assets/a354ab40-26b2-4681-b3d1-b5d73317fc85" />
 
 <img width="796" height="362" alt="image" src="https://github.com/user-attachments/assets/f56172b5-bb68-48f7-956d-b6f73b92a26b" />
