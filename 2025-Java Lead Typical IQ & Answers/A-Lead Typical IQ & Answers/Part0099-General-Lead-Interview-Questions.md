@@ -9,6 +9,7 @@
 7. Can you please give proper examples of Hibernate associations/mappings
 8. Explain in detail Twelve-Factor Methodology in a Spring Boot Microservice
 9. In Spring Application how shed lock works for cron jobs  can you explain in detail
+10. How @Transactional works in Spring Data Explain in detail
 
 
 
@@ -389,4 +390,24 @@ public final class Employee {
 <img width="806" height="602" alt="image" src="https://github.com/user-attachments/assets/97a2e205-878f-4a75-a0ca-ba1db4632e81" />
 
 <img width="798" height="615" alt="image" src="https://github.com/user-attachments/assets/57e59fb3-c171-42cc-8385-bbc90d42f54d" />
+
+#### 10. How @Transactional works in Spring Data Explain in detail
+
+<img width="819" height="372" alt="image" src="https://github.com/user-attachments/assets/070f27fd-16b8-494d-8ea5-935dfd598850" />
+
+<img width="796" height="668" alt="image" src="https://github.com/user-attachments/assets/a9db03cd-716f-4720-bee5-728e5fd9bd27" />
+
+<img width="794" height="730" alt="image" src="https://github.com/user-attachments/assets/1ecf1a21-e2af-43e9-9e58-b4973ee9c5bc" />
+
+<img width="801" height="775" alt="image" src="https://github.com/user-attachments/assets/5f7081ad-c377-4ef4-ab0a-ed561a1304e6" />
+
+<img width="817" height="688" alt="image" src="https://github.com/user-attachments/assets/4efd8841-d0dc-454f-a0b9-2535a9198e46" />
+
+<img width="811" height="467" alt="image" src="https://github.com/user-attachments/assets/1ad422ca-21b1-4b39-8194-0ce7aaeb1856" />
+
+<img width="826" height="418" alt="image" src="https://github.com/user-attachments/assets/d92a6b22-bd7b-4695-a5c3-05a3dc64dbd3" />
+
+
+
+
 
