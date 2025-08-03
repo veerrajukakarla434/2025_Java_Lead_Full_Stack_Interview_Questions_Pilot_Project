@@ -8,6 +8,7 @@
 6. What is the difference JPA vs Hibernates ?
 7. Can you please give proper examples of Hibernate associations/mappings
 8. Explain in detail Twelve-Factor Methodology in a Spring Boot Microservice
+9. In Spring Application how shed lock works for cron jobs  can you explain in detail
 
 
 
@@ -375,4 +376,17 @@ public final class Employee {
 
 <img width="816" height="639" alt="image" src="https://github.com/user-attachments/assets/7941bc2e-ec20-4020-99f1-73d76dac18f7" />
 
+#### 9. In Spring Application how shed lock works for cron jobs  can you explain in detail
+
+<img width="826" height="352" alt="image" src="https://github.com/user-attachments/assets/96c353cd-6249-4dbc-8eef-2d582011200e" />
+
+<img width="802" height="566" alt="image" src="https://github.com/user-attachments/assets/bf5bbc88-f0b3-4256-8435-d17f4ed26375" />
+
+<img width="789" height="457" alt="image" src="https://github.com/user-attachments/assets/c161600f-78d3-4dc3-9ec0-5f71277327e8" />
+
+<img width="795" height="725" alt="image" src="https://github.com/user-attachments/assets/0345804a-7123-49ad-9ed4-7d573fd66664" />
+
+<img width="806" height="602" alt="image" src="https://github.com/user-attachments/assets/97a2e205-878f-4a75-a0ca-ba1db4632e81" />
+
+<img width="798" height="615" alt="image" src="https://github.com/user-attachments/assets/57e59fb3-c171-42cc-8385-bbc90d42f54d" />
 
