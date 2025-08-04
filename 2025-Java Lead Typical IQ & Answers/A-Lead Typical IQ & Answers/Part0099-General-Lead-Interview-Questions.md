@@ -223,6 +223,63 @@ resilience4j.circuitbreaker:
 ```
 <img width="745" height="142" alt="image" src="https://github.com/user-attachments/assets/1f3480b4-0df8-4290-9462-d91e1d0524e8" />
 
+#### OR
+
+<img width="851" height="449" alt="image" src="https://github.com/user-attachments/assets/57bd63bb-deaa-4d2f-8ab2-9454cd7fb8e1" />
+
+<img width="859" height="641" alt="image" src="https://github.com/user-attachments/assets/ee80af3f-5e0e-43e8-ae69-d3f3e05ba59c" />
+
+```yml
+resilience4j:
+  circuitbreaker:
+    instances:
+      myServiceCB:
+        registerHealthIndicator: true  # Enables health indicator for actuator endpoint
+        slidingWindowType: COUNT_BASED  # Use COUNT_BASED (or TIME_BASED) sliding window strategy
+        slidingWindowSize: 5  # Number of calls to evaluate for failure rate
+        failureRateThreshold: 50  # Circuit breaker opens if failure rate exceeds this threshold (in %)
+        waitDurationInOpenState: 10s # Time circuit breaker stays OPEN before switching to HALF_OPEN
+        permittedNumberOfCallsInHalfOpenState: 3 # Number of calls allowed in HALF_OPEN state before determining outcome
+        minimumNumberOfCalls: 5  # Minimum number of calls required to calculate failure rate
+        automaticTransitionFromOpenToHalfOpenEnabled: true  # Automatically transition from OPEN to HALF_OPEN after wait duration
+
+  retry:
+    instances:
+      myServiceRetry:
+        maxAttempts: 3 # Max retry attempts including the initial call
+        waitDuration: 2s # Wait duration between retry attempts
+        retryExceptions:   # Only retry these exception types
+          - java.io.IOException
+        ignoreExceptions:   # Never retry for these exception types
+          - java.lang.IllegalArgumentException
+
+  ratelimiter:
+    instances:
+      myServiceRateLimiter:  
+        limitForPeriod: 5    # Max number of calls allowed per refresh period
+        limitRefreshPeriod: 1s
+        timeoutDuration: 500ms
+
+  bulkhead:
+    instances:
+      myServiceBulkhead:
+        maxConcurrentCalls: 5
+        maxWaitDuration: 500ms  # Max time a thread waits for permission if rate limit is exceeded
+
+  thread-pool-bulkhead:
+    instances:
+      myServiceThreadPool:
+        coreThreadPoolSize: 5   # Core thread pool size (kept alive always)
+        maxThreadPoolSize: # Maximum thread pool size (burst capacity)
+        queueCapacity: 20  # Queue size to hold tasks before rejection
+
+  timelimiter:
+    instances:
+      myServiceTimeLimiter:
+        timeoutDuration: 2s    # Max duration allowed for a call before timing out
+        cancelRunningFuture: true # Cancel the running future task on timeout
+
+```
 
 #### 4) how to create immutable class
 
