@@ -281,6 +281,13 @@ resilience4j:
 
 ```
 
+<img width="850" height="586" alt="image" src="https://github.com/user-attachments/assets/1e66acb9-7af1-47c3-ab2a-94e42c2b6538" />
+
+<img width="906" height="415" alt="image" src="https://github.com/user-attachments/assets/9f25c5e3-6fe9-4ae7-bec6-5bff8b723803" />
+
+<img width="819" height="389" alt="image" src="https://github.com/user-attachments/assets/47a36867-fefa-4eb7-8529-2f85f82247d0" />
+
+
 #### 4) how to create immutable class
 
 <img width="795" height="569" alt="image" src="https://github.com/user-attachments/assets/06ab7d51-b1aa-4ce7-8347-5a07834f5a13" />
