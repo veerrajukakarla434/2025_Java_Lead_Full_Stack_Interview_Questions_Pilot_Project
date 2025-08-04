@@ -398,6 +398,263 @@ public final class Employee {
 
 <img width="839" height="509" alt="image" src="https://github.com/user-attachments/assets/8533fafd-e150-4227-8a98-3a3c0e430222" />
 
+#### Code Example
+
+```java
+// IMPORTANT: Use jakarta.persistence instead of javax.persistence for Spring Boot 3+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+/**
+ * ========================================
+ * 1. ONE-TO-ONE MAPPING
+ * ========================================
+ *
+ * Example: A User has one and only one UserProfile.
+ * The User entity is the "owning" side, as it contains the foreign key.
+ * The UserProfile entity is the "inverse" side.
+ */
+
+// User.java - The Owning Side
+@Entity
+@Table(name = "users")
+public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "username")
+    private String username;
+
+    /**
+     * @OneToOne: Defines a one-to-one relationship.
+     * cascade = CascadeType.ALL: If a User is saved or deleted, the associated
+     * UserProfile is also saved or deleted. This simplifies persistence.
+     * @JoinColumn(name = "user_profile_id"): Specifies the foreign key column
+     * in the `users` table that links to the `user_profiles` table's primary key.
+     */
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_profile_id", referencedColumnName = "id")
+    private UserProfile userProfile;
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getUsername() { return username; }
+    public void setUsername(String username) { this.username = username; }
+    public UserProfile getUserProfile() { return userProfile; }
+    public void setUserProfile(UserProfile userProfile) { this.userProfile = userProfile; }
+}
+
+// UserProfile.java - The Inverse Side
+@Entity
+@Table(name = "user_profiles")
+public class UserProfile {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "bio")
+    private String bio;
+
+    /**
+     * @OneToOne(mappedBy = "userProfile"): Declares that this is the inverse
+     * side of the relationship. The `mappedBy` attribute points to the
+     * field name in the owning entity (the `User` class) that manages the relationship.
+     * This means the foreign key is in the `users` table, not here.
+     */
+    @OneToOne(mappedBy = "userProfile")
+    private User user;
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getBio() { return bio; }
+    public void setBio(String bio) { this.bio = bio; }
+    public User getUser() { return user; }
+    public void setUser(User user) { this.user = user; }
+}
+
+/**
+ * ========================================
+ * 2. ONE-TO-MANY / MANY-TO-ONE MAPPING
+ * ========================================
+ *
+ * Example: A Department has many Employees, but an Employee belongs to only one Department.
+ * The Employee entity is the "owning" side of the relationship.
+ */
+
+// Department.java - The One-to-Many Side (Inverse)
+@Entity
+@Table(name = "departments")
+public class Department {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "name")
+    private String name;
+
+    /**
+     * @OneToMany(mappedBy = "department"): This is the inverse side. It points to
+     * the `department` field in the `Employee` entity which owns the relationship.
+     * The `cascade` and `orphanRemoval` attributes ensure that when a Department
+     * is deleted, all its associated Employees are also deleted.
+     */
+    @OneToMany(mappedBy = "department", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Employee> employees;
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public List<Employee> getEmployees() { return employees; }
+    public void setEmployees(List<Employee> employees) { this.employees = employees; }
+}
+
+// Employee.java - The Many-to-One Side (Owning)
+@Entity
+@Table(name = "employees")
+public class Employee {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "first_name")
+    private String firstName;
+
+    @Column(name = "last_name")
+    private String lastName;
+
+    /**
+     * @ManyToOne: Defines a many-to-one relationship.
+     * @JoinColumn(name = "department_id"): Specifies the foreign key column in the
+     * `employees` table that links to the `departments` table.
+     */
+    @ManyToOne
+    @JoinColumn(name = "department_id")
+    private Department department;
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getFirstName() { return firstName; }
+    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public String getLastName() { return lastName; }
+    public void setLastName(String lastName) { this.lastName = lastName; }
+    public Department getDepartment() { return department; }
+    public void setDepartment(Department department) { this.department = department; }
+}
+
+/**
+ * ========================================
+ * 3. MANY-TO-MANY MAPPING
+ * ========================================
+ *
+ * Example: A Student can enroll in many Courses, and a Course can have many Students.
+ * The `Student` entity is the "owning" side of the relationship.
+ */
+
+// Student.java - The Owning Side
+@Entity
+@Table(name = "students")
+public class Student {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "name")
+    private String name;
+
+    /**
+     * @ManyToMany: Defines a many-to-many relationship.
+     * @JoinTable: Specifies the intermediate "join" table that will be created
+     * to manage the relationship.
+     * name = "student_course": The name of the join table.
+     * joinColumns = @JoinColumn(name = "student_id"): The column in the join table
+     * that references the `Student` entity's primary key.
+     * inverseJoinColumns = @JoinColumn(name = "course_id"): The column in the
+     * join table that references the `Course` entity's primary key.
+     */
+    @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE })
+    @JoinTable(
+        name = "student_course",
+        joinColumns = @JoinColumn(name = "student_id"),
+        inverseJoinColumns = @JoinColumn(name = "course_id")
+    )
+    private Set<Course> courses = new HashSet<>();
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public Set<Course> getCourses() { return courses; }
+    public void setCourses(Set<Course> courses) { this.courses = courses; }
+
+    public void addCourse(Course course) {
+        this.courses.add(course);
+        course.getStudents().add(this);
+    }
+
+    public void removeCourse(Course course) {
+        this.courses.remove(course);
+        course.getStudents().remove(this);
+    }
+}
+
+// Course.java - The Inverse Side
+@Entity
+@Table(name = "courses")
+public class Course {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "title")
+    private String title;
+
+    /**
+     * @ManyToMany(mappedBy = "courses"): This is the inverse side, managed by the
+     * `courses` field in the `Student` entity.
+     */
+    @ManyToMany(mappedBy = "courses")
+    private Set<Student> students = new HashSet<>();
+
+    // Getters and Setters...
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getTitle() { return title; }
+    public void setTitle(String title) { this.title = title; }
+    public Set<Student> getStudents() { return students; }
+    public void setStudents(Set<Student> students) { this.students = students; }
+}
+```
+
+
+
 #### 7. Can you please give proper examples of Hibernate associations/mappings 
 
 <img width="820" height="331" alt="image" src="https://github.com/user-attachments/assets/3c697e15-7bea-4b3f-8898-c5088dd87b3e" />
