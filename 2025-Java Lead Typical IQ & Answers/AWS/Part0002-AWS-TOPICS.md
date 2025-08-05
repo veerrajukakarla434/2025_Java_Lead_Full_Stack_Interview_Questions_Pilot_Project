@@ -69,6 +69,91 @@
 
 <img width="806" height="627" alt="image" src="https://github.com/user-attachments/assets/95aa3b7e-9e9f-412d-b944-6100af7d1e29" />
 
+```java
+package com.example.lambda;
 
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsProvider;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
+
+import java.util.Base64;
+import java.util.Map;
+
+public class UploadToS3Lambda implements RequestHandler<Map<String, String>, String> {
+
+    private final S3Client s3 = S3Client.builder()
+            .region(Region.AP_SOUTH_1)
+            .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
+            .build();
+
+    private final String bucketName = "my-demo-bucket-veer";
+
+    @Override
+    public String handleRequest(Map<String, String> input, Context context) {
+        try {
+            String fileName = input.get("fileName");
+            String base64Content = input.get("content");
+            byte[] contentBytes = Base64.getDecoder().decode(base64Content);
+
+            PutObjectRequest putObjectRequest = PutObjectRequest.builder()
+                    .bucket(bucketName)
+                    .key(fileName)
+                    .build();
+
+            s3.putObject(putObjectRequest, software.amazon.awssdk.core.sync.RequestBody.fromBytes(contentBytes));
+            return "File uploaded to S3: " + fileName;
+        } catch (Exception e) {
+            return "Error: " + e.getMessage();
+        }
+    }
+}
+
+```
+<img width="828" height="498" alt="image" src="https://github.com/user-attachments/assets/b2681955-3e0a-489d-b4c3-5bc4cc4cd021" />
+
+```java
+@RestController
+@RequestMapping("/upload")
+public class UploadController {
+
+    private final LambdaClient lambdaClient;
+
+    public UploadController() {
+        this.lambdaClient = LambdaClient.builder()
+                .region(Region.AP_SOUTH_1)
+                .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
+                .build();
+    }
+
+    @PostMapping
+    public ResponseEntity<String> uploadToS3(@RequestParam("file") MultipartFile file) throws IOException {
+        String fileName = file.getOriginalFilename();
+        byte[] content = file.getBytes();
+        String base64 = Base64.getEncoder().encodeToString(content);
+
+        String jsonPayload = new ObjectMapper().writeValueAsString(Map.of(
+                "fileName", fileName,
+                "content", base64
+        ));
+
+        InvokeRequest request = InvokeRequest.builder()
+                .functionName("upload-to-s3-lambda") // Lambda function name
+                .payload(SdkBytes.fromUtf8String(jsonPayload))
+                .build();
+
+        InvokeResponse response = lambdaClient.invoke(request);
+        String result = response.payload().asUtf8String();
+
+        return ResponseEntity.ok(result);
+    }
+}
+
+```
+<img width="815" height="534" alt="image" src="https://github.com/user-attachments/assets/5d59b643-b1ca-4647-a3bf-8567a9c4db09" />
+
+<img width="873" height="540" alt="image" src="https://github.com/user-attachments/assets/be8643ac-e5e8-48c8-b24d-8145ef2afe9d" />
 
 
