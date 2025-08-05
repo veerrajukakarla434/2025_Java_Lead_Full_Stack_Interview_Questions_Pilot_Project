@@ -2,7 +2,10 @@
 
 * **1) What is IAM in AWS and purpose of IAM**
 * **2) Real-world IAM setup for a Java Spring Boot app running on EC2, Lambda** 
-   3) 
+* **3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot**
+* 
+    
+  
 
 
 
@@ -57,5 +60,15 @@
 <img width="754" height="452" alt="image" src="https://github.com/user-attachments/assets/9d36f382-110c-416e-a6b4-72e13b918491" />
 
 <img width="770" height="245" alt="image" src="https://github.com/user-attachments/assets/eff6d611-cecb-487e-bbd5-5099486afd5d" />
+
+#### 3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot
+
+<img width="826" height="622" alt="image" src="https://github.com/user-attachments/assets/a3f2aafd-fa5e-4a27-8615-6234a0eb8434" />
+
+<img width="802" height="497" alt="image" src="https://github.com/user-attachments/assets/c6912a0c-ec9a-43a7-bf72-39321415b3d7" />
+
+<img width="806" height="627" alt="image" src="https://github.com/user-attachments/assets/95aa3b7e-9e9f-412d-b944-6100af7d1e29" />
+
+
 
 
