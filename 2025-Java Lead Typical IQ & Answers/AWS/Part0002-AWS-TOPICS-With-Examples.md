@@ -5,6 +5,7 @@
 * **3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot**
 * **4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain**
 * **5) What is AWS RDS ?**
+* **6) What is VPC and What is EC2 in AWS**
     
 
 
@@ -202,5 +203,13 @@ public class UploadController {
 
 <img width="808" height="383" alt="image" src="https://github.com/user-attachments/assets/e682ec89-5fec-419c-a532-704e072ef128" />
 
+#### 6) What is VPC and What is EC2 in AWS
 
+<img width="832" height="595" alt="image" src="https://github.com/user-attachments/assets/6dc7f74b-3c5a-44f0-bad7-145f62d5a13f" />
+
+<img width="807" height="545" alt="image" src="https://github.com/user-attachments/assets/0c1f7e98-17df-4619-9f67-b2f77334838a" />
+
+<img width="845" height="470" alt="image" src="https://github.com/user-attachments/assets/107542c6-c824-4401-b658-6e6ab4305a2e" />
+
+<img width="610" height="422" alt="image" src="https://github.com/user-attachments/assets/18d6c094-22e8-4ce7-8e4d-92f652d0820e" />
 
