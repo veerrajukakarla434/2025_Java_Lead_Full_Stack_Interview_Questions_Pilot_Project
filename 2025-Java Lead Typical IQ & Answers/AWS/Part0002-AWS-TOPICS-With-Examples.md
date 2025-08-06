@@ -157,4 +157,10 @@ public class UploadController {
 
 <img width="873" height="540" alt="image" src="https://github.com/user-attachments/assets/be8643ac-e5e8-48c8-b24d-8145ef2afe9d" />
 
+#### 4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain
+
+<img width="808" height="423" alt="image" src="https://github.com/user-attachments/assets/7300fda5-2f2b-487d-81b1-3360548cfd13" />
+
+<img width="817" height="744" alt="image" src="https://github.com/user-attachments/assets/75901ab7-ec00-4c3a-976f-631fe5b56455" />
+
 
