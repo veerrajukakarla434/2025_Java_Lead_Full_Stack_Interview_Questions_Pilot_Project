@@ -6,6 +6,7 @@
 * **4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain**
 * **5) What is AWS RDS ?**
 * **6) What is VPC and What is EC2 in AWS**
+* **7) https://chatgpt.com/c/6892f929-b594-8331-b102-86ef9eaabbb6  about SQS, SNS in progress
     
 
 
