@@ -4,9 +4,9 @@
 * **2) Real-world IAM setup for a Java Spring Boot app running on EC2, Lambda** 
 * **3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot**
 * **4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain**
+* **5) What is AWS RDS ?**
     
-  I am in -> https://chatgpt.com/c/68916cfb-b7c4-8328-9ba7-674b42f2fdc2
-  need to update
+
 
 
 
@@ -172,3 +172,21 @@ public class UploadController {
 <img width="883" height="514" alt="image" src="https://github.com/user-attachments/assets/b6f78a0b-0e83-45da-a870-243abcbd211f" />
 
 <img width="830" height="271" alt="image" src="https://github.com/user-attachments/assets/ed5f0709-4803-4ce1-adc0-316ed9596428" />
+
+
+#### 5) What is AWS RDS ?
+
+<img width="830" height="324" alt="image" src="https://github.com/user-attachments/assets/de9e31e4-c11b-4ca0-8c9e-d7ba3f0d5a86" />
+
+<img width="822" height="440" alt="image" src="https://github.com/user-attachments/assets/5814a0e8-d13d-4861-8be3-cea2ec797c21" />
+
+<img width="822" height="440" alt="image" src="https://github.com/user-attachments/assets/3a0fa400-9d5e-410e-b0fc-8f9557ce852c" />
+
+<img width="829" height="422" alt="image" src="https://github.com/user-attachments/assets/4dfb8105-5cfa-445d-aab0-d491ff17aac5" />
+
+<img width="823" height="679" alt="image" src="https://github.com/user-attachments/assets/490a0cc1-61b8-4db5-882c-e23398717c73" />
+
+<img width="803" height="595" alt="image" src="https://github.com/user-attachments/assets/23cacd1c-ff15-49a1-98df-e88d908bdcf3" />
+
+<img width="754" height="312" alt="image" src="https://github.com/user-attachments/assets/1b73ac8d-473a-4b9c-acb3-7408be7a9110" />
+
