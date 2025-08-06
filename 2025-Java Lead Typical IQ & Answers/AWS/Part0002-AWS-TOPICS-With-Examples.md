@@ -190,3 +190,17 @@ public class UploadController {
 
 <img width="754" height="312" alt="image" src="https://github.com/user-attachments/assets/1b73ac8d-473a-4b9c-acb3-7408be7a9110" />
 
+<img width="824" height="677" alt="image" src="https://github.com/user-attachments/assets/7730a50a-ea8b-4a3a-be08-1b4e73fd985b" />
+
+<img width="852" height="603" alt="image" src="https://github.com/user-attachments/assets/295fe2c2-a74d-4d8e-9bbc-aa2e27e022dc" />
+
+<img width="801" height="643" alt="image" src="https://github.com/user-attachments/assets/342e9acb-da91-46fe-9dc0-5d83d3b7694d" />
+
+<img width="817" height="648" alt="image" src="https://github.com/user-attachments/assets/6112ee3c-b754-49b7-99b0-4056f6cb3c10" />
+
+<img width="789" height="441" alt="image" src="https://github.com/user-attachments/assets/7671e88d-f79d-453f-80e4-708eef226c5d" />
+
+<img width="808" height="383" alt="image" src="https://github.com/user-attachments/assets/e682ec89-5fec-419c-a532-704e072ef128" />
+
+
+
