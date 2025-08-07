@@ -226,4 +226,11 @@ public class UploadController {
 
 <img width="818" height="562" alt="image" src="https://github.com/user-attachments/assets/660f0aba-d43d-44ab-96a0-e83ca5f48820" />
 
+<img width="794" height="732" alt="image" src="https://github.com/user-attachments/assets/38c33b77-7471-4da4-9eb9-e2324015d484" />
+
+<img width="790" height="604" alt="image" src="https://github.com/user-attachments/assets/e8828fc8-61be-429e-840c-019e3c7cf3fb" />
+
+<img width="797" height="664" alt="image" src="https://github.com/user-attachments/assets/13d1d34f-aa9f-43e2-b064-eef2b542e836" />
+
+
 
