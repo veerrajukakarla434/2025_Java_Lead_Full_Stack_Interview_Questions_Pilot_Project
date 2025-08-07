@@ -6,7 +6,7 @@
 * **4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain**
 * **5) What is AWS RDS ?**
 * **6) What is VPC and What is EC2 in AWS**
-* **7) https://chatgpt.com/c/6892f929-b594-8331-b102-86ef9eaabbb6  about SQS, SNS in progress
+* **7) What is the purpose of SQS, SNS  in AWS, Give in detail**
     
 
 
@@ -213,4 +213,17 @@ public class UploadController {
 <img width="845" height="470" alt="image" src="https://github.com/user-attachments/assets/107542c6-c824-4401-b658-6e6ab4305a2e" />
 
 <img width="610" height="422" alt="image" src="https://github.com/user-attachments/assets/18d6c094-22e8-4ce7-8e4d-92f652d0820e" />
+
+#### 7) What is the purpose of SQS, SNS  in AWS, Give in detail
+
+<img width="815" height="462" alt="image" src="https://github.com/user-attachments/assets/76621d9d-0203-4372-a842-19b1fdd2cb6b" />
+
+<img width="806" height="714" alt="image" src="https://github.com/user-attachments/assets/2f5eb4a0-b04d-4a7d-90a0-c5f5812b6eaa" />
+
+<img width="802" height="573" alt="image" src="https://github.com/user-attachments/assets/46a1c63d-9484-43e8-940a-64a6c49712b1" />
+
+<img width="819" height="615" alt="image" src="https://github.com/user-attachments/assets/b644aaa3-d86a-4f2d-bae5-fb088a0ce3f2" />
+
+<img width="818" height="562" alt="image" src="https://github.com/user-attachments/assets/660f0aba-d43d-44ab-96a0-e83ca5f48820" />
+
 
