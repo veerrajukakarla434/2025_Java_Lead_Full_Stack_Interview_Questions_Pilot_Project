@@ -11,6 +11,7 @@
 * **9) What is evenbidge ?  cloud watch vs event bridge** 
 * **10) what is ECS ? EKS ? and ECS vs EKS**
 * **11) What is Fargate in AWS ?**
+* **12) what is Avalability zones in AWS ?**
     
 
 
@@ -269,3 +270,17 @@ public class UploadController {
 <img width="856" height="648" alt="image" src="https://github.com/user-attachments/assets/a5fd8e4a-69d3-4d3f-9393-b04983621d22" />
 
 <img width="793" height="135" alt="image" src="https://github.com/user-attachments/assets/5ad53b05-eb5b-4ea0-a309-516424414595" />
+
+
+#### 12 ) What is Avalability zones in AWS
+
+<img width="839" height="717" alt="image" src="https://github.com/user-attachments/assets/d3c13233-68b8-4bca-a1af-b3c25c2ed2e5" />
+
+<img width="850" height="598" alt="image" src="https://github.com/user-attachments/assets/f1ae474e-7863-4d5d-9fd0-8d085cf378d1" />
+
+<img width="957" height="605" alt="image" src="https://github.com/user-attachments/assets/27ae4cd4-7a41-49cd-8d76-ffd1fbb4c78d" />
+
+<img width="828" height="680" alt="image" src="https://github.com/user-attachments/assets/8f2c6092-71f3-4259-9a62-2853c05fffbb" />
+
+
+
