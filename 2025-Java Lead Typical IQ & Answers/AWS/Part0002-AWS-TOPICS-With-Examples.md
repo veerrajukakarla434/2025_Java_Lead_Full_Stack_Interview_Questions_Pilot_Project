@@ -8,8 +8,9 @@
 * **6) What is VPC and What is EC2 in AWS**
 * **7) What is the purpose of SQS, SNS  in AWS, Give in detail**
 * **8) What is CLoud watch and purpose of CLoud watch in AWS**
-* **9) what is ECS ? EKS ? and ECS vs EKS**
-* **10) What is Fargate in AWS ?**
+* **9) What is evenbidge ?  cloud watch vs event bridge** 
+* **10) what is ECS ? EKS ? and ECS vs EKS**
+* **11) What is Fargate in AWS ?**
     
 
 
@@ -243,11 +244,28 @@ public class UploadController {
 
 <img width="814" height="561" alt="image" src="https://github.com/user-attachments/assets/90d75917-237e-43cc-99f4-35635f68638e" />
 
+#### 9) What is evenbidge ?  cloud watch vs event bridge
 
+<img width="838" height="690" alt="image" src="https://github.com/user-attachments/assets/f4f775c9-59b0-4d18-8ac7-aa19af159d6c" />
 
+<img width="838" height="671" alt="image" src="https://github.com/user-attachments/assets/31d1fadf-94d5-40d7-bf4d-f6d91d98a274" />
 
-#### 9) what is ECS ? EKS ? and ECS vs EKS
+<img width="846" height="624" alt="image" src="https://github.com/user-attachments/assets/e210719f-6fdd-4be1-acc1-3e4ce68e5679" />
 
+#### 10) what is ECS ? EKS ? and ECS vs EKS
 
-#### 10) What is Fargate in AWS ?
+<img width="857" height="716" alt="image" src="https://github.com/user-attachments/assets/f2514fb2-e8d8-4b0f-82ef-b1f52b55047e" />
 
+<img width="851" height="686" alt="image" src="https://github.com/user-attachments/assets/85c2e331-096c-45df-b0e8-82664a5d54f7" />
+
+<img width="797" height="581" alt="image" src="https://github.com/user-attachments/assets/76d94dc6-a6da-47c6-ab6c-1a8d509349ba" />
+
+#### 11) What is Fargate in AWS ?
+
+<img width="825" height="559" alt="image" src="https://github.com/user-attachments/assets/b080a2a6-2e98-4a63-a086-8dca830bebdc" />
+
+<img width="831" height="651" alt="image" src="https://github.com/user-attachments/assets/c193a71f-90a0-4047-a4e5-fb817d9a5b52" />
+
+<img width="856" height="648" alt="image" src="https://github.com/user-attachments/assets/a5fd8e4a-69d3-4d3f-9393-b04983621d22" />
+
+<img width="793" height="135" alt="image" src="https://github.com/user-attachments/assets/5ad53b05-eb5b-4ea0-a309-516424414595" />
