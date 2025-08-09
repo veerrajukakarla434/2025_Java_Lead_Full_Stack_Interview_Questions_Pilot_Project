@@ -16,10 +16,10 @@
 * **12) what is Avalability zones in AWS ?**
 * **13) what is serverless architecture in aws Purpose and use cases , give in detail**
     
-
-
-
-
+* **14) give top 50 AWS + Java Spring Boot high-level interview Q&A in detail**
+* G- Gemin -> https://gemini.google.com/app/9bf36e5678cac84e
+* Chat-GPT -> https://chatgpt.com/c/68978562-2b30-8332-a7d6-63778f67f063
+  
 
 #### What is Lambda in WAS and purpose of Lambda ?
 
