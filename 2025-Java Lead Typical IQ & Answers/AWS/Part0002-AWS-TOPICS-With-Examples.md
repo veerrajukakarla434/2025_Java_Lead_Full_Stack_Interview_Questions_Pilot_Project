@@ -19,6 +19,10 @@
 * **14) give top 50 AWS + Java Spring Boot high-level interview Q&A in detail**
 * G- Gemin -> https://gemini.google.com/app/9bf36e5678cac84e
 * Chat-GPT -> https://chatgpt.com/c/68978562-2b30-8332-a7d6-63778f67f063
+
+* **15) Top 10 questions and answers for AWS with Spring boot/Java Application**
+* G-Gemini ->  https://gemini.google.com/app/0e6462819b9b95f0
+* Chat- GPT -> https://chatgpt.com/c/6897874b-d6ac-832b-8be2-400c287d1bf8
   
 
 #### What is Lambda in WAS and purpose of Lambda ?
