@@ -7,6 +7,9 @@
 * **5) What is AWS RDS ?**
 * **6) What is VPC and What is EC2 in AWS**
 * **7) What is the purpose of SQS, SNS  in AWS, Give in detail**
+* **8) What is CLoud watch and purpose of CLoud watch in AWS**
+* **9) what is ECS ? EKS ? and ECS vs EKS**
+* **10) What is Fargate in AWS ?**
     
 
 
@@ -232,5 +235,14 @@ public class UploadController {
 
 <img width="797" height="664" alt="image" src="https://github.com/user-attachments/assets/13d1d34f-aa9f-43e2-b064-eef2b542e836" />
 
+#### 8) What is CLoud watch and purpose of CLoud watch in AWS**
 
+<img width="827" height="755" alt="image" src="https://github.com/user-attachments/assets/dd907066-7060-47fc-97e5-b5a1c17eecd1" />
+
+
+
+#### 9) what is ECS ? EKS ? and ECS vs EKS
+
+
+#### 10) What is Fargate in AWS ?
 
