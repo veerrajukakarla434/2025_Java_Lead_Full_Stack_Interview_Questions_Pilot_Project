@@ -239,6 +239,11 @@ public class UploadController {
 
 <img width="827" height="755" alt="image" src="https://github.com/user-attachments/assets/dd907066-7060-47fc-97e5-b5a1c17eecd1" />
 
+<img width="796" height="389" alt="image" src="https://github.com/user-attachments/assets/0789d73b-7714-451f-a36e-bdada3efe541" />
+
+<img width="814" height="561" alt="image" src="https://github.com/user-attachments/assets/90d75917-237e-43cc-99f4-35635f68638e" />
+
+
 
 
 #### 9) what is ECS ? EKS ? and ECS vs EKS
