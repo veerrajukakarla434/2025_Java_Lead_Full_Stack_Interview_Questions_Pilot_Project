@@ -1,5 +1,7 @@
 # AWS Topics and Queries
 
+#### What is Lambda in WAS and purpose of Lambda ?
+
 * **1) What is IAM in AWS and purpose of IAM**
 * **2) Real-world IAM setup for a Java Spring Boot app running on EC2, Lambda** 
 * **3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot**
@@ -12,12 +14,32 @@
 * **10) what is ECS ? EKS ? and ECS vs EKS**
 * **11) What is Fargate in AWS ?**
 * **12) what is Avalability zones in AWS ?**
+* **13) what is serverless architecture in aws Purpose and use cases , give in detail**
     
 
 
 
 
 
+#### What is Lambda in WAS and purpose of Lambda ?
+
+<img width="817" height="655" alt="image" src="https://github.com/user-attachments/assets/e36a36aa-969e-4fb4-9c8b-ccb1a3bbb2ec" />
+
+<img width="820" height="565" alt="image" src="https://github.com/user-attachments/assets/b16d6c2e-4c79-4d11-a80a-3271202fc277" />
+
+<img width="808" height="472" alt="image" src="https://github.com/user-attachments/assets/a4976a99-21b9-4829-af3d-2212660cdcc7" />
+
+<img width="821" height="669" alt="image" src="https://github.com/user-attachments/assets/71c54424-16e8-4724-be67-722d2c078d61" />
+
+<img width="812" height="406" alt="image" src="https://github.com/user-attachments/assets/13311257-9975-444d-9652-213a1622c87b" />
+
+<img width="816" height="601" alt="image" src="https://github.com/user-attachments/assets/4f76cde7-eb5f-4d4f-9248-8e2a963368c9" />
+
+<img width="820" height="665" alt="image" src="https://github.com/user-attachments/assets/31b75e3e-fd4a-492c-ace9-ee3a97546bc5" />
+
+<img width="814" height="657" alt="image" src="https://github.com/user-attachments/assets/578eae9b-fdc6-41a1-bea7-a3aba0c6a718" />
+
+<img width="801" height="208" alt="image" src="https://github.com/user-attachments/assets/9ec59c91-1472-4ac8-8404-614a75fc107e" />
 
 
 
@@ -282,5 +304,18 @@ public class UploadController {
 
 <img width="828" height="680" alt="image" src="https://github.com/user-attachments/assets/8f2c6092-71f3-4259-9a62-2853c05fffbb" />
 
+#### 13) what is serverless architecture in aws Purpose and use cases , give in detail
 
+<img width="800" height="654" alt="image" src="https://github.com/user-attachments/assets/7358670b-9f41-4a84-bad5-71e1c5bb7782" />
 
+<img width="823" height="618" alt="image" src="https://github.com/user-attachments/assets/3d3b2d01-d0fc-4168-b7ed-b3cd247a695d" />
+
+<img width="808" height="256" alt="image" src="https://github.com/user-attachments/assets/e379e8c0-7db3-4562-b2fc-1d205a25c6ab" />
+
+<img width="848" height="549" alt="image" src="https://github.com/user-attachments/assets/70f6b5e8-ed54-4251-b0d7-721c85470387" />
+
+<img width="816" height="570" alt="image" src="https://github.com/user-attachments/assets/0eee593a-4418-4fcb-8050-03e56bfcfef2" />
+
+<img width="823" height="279" alt="image" src="https://github.com/user-attachments/assets/de51b93f-6d1a-4d13-a8b8-4faca9560622" />
+
+<img width="537" height="316" alt="image" src="https://github.com/user-attachments/assets/16812fa1-c58f-4666-8d10-3f8924abf880" />
